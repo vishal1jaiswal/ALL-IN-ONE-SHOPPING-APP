@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vishaljai.xtreme.ForgPass"
+   >
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/emailss"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="230dp"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/send_password"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/send_pass"
+            android:background="#FF0000"
+            android:textColor="#00FF00"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

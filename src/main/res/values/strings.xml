@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Xtreme</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_forget_pass">ForgetPass</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_password">Send Password</string>
+</resources>

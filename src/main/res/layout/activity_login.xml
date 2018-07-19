@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="vishaljai.xtreme.login">
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="40dp"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <EditText
+                android:layout_marginTop="25dp"
+                android:id="@+id/etUserName"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:hint="Username"
+                android:background="#FFFFFF"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+
+             />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="25dp"
+                android:id="@+id/etPassword"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:background="#FFFFFF"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:textColorHighlight="@color/colorAccent"
+            android:background="#00FFFF"
+            android:textStyle="bold"
+            android:onClick="OnLogin"/>
+             />
+        <TextView
+            android:id="@+id/forgetPass"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:linksClickable="true"
+            android:text="Forget Password?"
+            android:textStyle="bold"
+            android:textColor="#00FFFF"
+            android:onClick="forgotPassword"/>
+
+        <TextView
+            android:layout_width="265dp"
+            android:layout_height="30dp"
+           android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="----------------------------OR--------------------------"
+            android:textColor="#00FFFF"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:id="@+id/btnreg"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:linksClickable="true"
+            android:text="Not account yet? Create one"
+            android:textStyle="bold"
+            android:textColor="#00FFFF"
+            android:onClick="btnregister"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
